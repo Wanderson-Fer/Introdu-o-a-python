@@ -36,4 +36,8 @@ if __name__ == '__main__':
     print(f'"{citacao}"\n frase de {nome_completo}')
 
     # 'slices' — Fatias de strings
+    # nomeString[indiceInicial:indiceFinal]
 
+    print(f'\nslices permitem mostrar uma string de forma '
+          f'parcial capturando apenas uma fatia')
+    print(f'\nparte da citação: {citacao[10:25]}')
