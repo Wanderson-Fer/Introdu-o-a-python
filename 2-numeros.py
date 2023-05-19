@@ -57,12 +57,13 @@ if __name__ == '__main__':
     # delimitar quantidade de casas decimais
 
     print('Limitando quantidade de casas após a vírgula:')
-    print('Float - ', 3.753423,
+    print('Float - ', 3.757423,
           ' >> limitando á duas casas - ', round(3.753423, 2))
 
     # Operações boleanas
     # Resultam em 'True' ou 'False'
     print('-----------------------------------')
+    print('Operações booleanas')
 
     print("'numero1' é maior que 'numero2'?",
           numero1 > numero2)

@@ -17,8 +17,7 @@ if __name__ == '__main__':
     print("O nome completo é " + nome_completo)
 
     # Interpolação — As 'strings' serão representadas por simpolos de '%s'
-    print("O famoso filósofo %s ,mais conhecido por %s" %
-          (nome_completo, sobrenome))
+    print("O famoso filósofo %s ,mais conhecido por %s" % (nome_completo, sobrenome))
 
     # Símbolos usados na interpolação:
     # %s: string;

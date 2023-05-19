@@ -17,7 +17,11 @@ if __name__ == '__main__':
     # Se o valor for maior que 100 é o ano de nascimento e não a idade
     if valor_digitado > 100:
         # Operação entre datas para obter a idade
-        valor_digitado = int(dt.date.today().strftime('%Y')) - valor_digitado
+        ano_atual = int(dt.date.today().strftime('%Y'))
+        valor_digitado = ano_atual - valor_digitado
+
+        print('Você digitou um ano de nascimento')
+        print('Sua idade é %d' % (valor_digitado))
 
     # O valor digitado agora corresponde à idade
     idade = valor_digitado
@@ -25,6 +29,7 @@ if __name__ == '__main__':
     # Verificando se é adulto
     if idade < 18:
         print('Não pode beber!')
-
+    elif idade > 100:
+        print('Você é uma múmia?')
     else:
         print('Pode beber!')

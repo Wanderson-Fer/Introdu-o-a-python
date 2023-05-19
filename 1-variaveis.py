@@ -5,11 +5,12 @@ if __name__ == "__main__":
     # Isso é um comentário
     # Alguns exemplos de declaração de variáveis abaixo
 
-    name = 'Wanderson'  # Palavras e frases sempre estarão entre aspas simples ou duplas
-    idade = 20
-    peso = 70.2
-    dirige = False
-    bebe = True
+    # Palavras e frases sempre estarão entre aspas simples ou duplas
+    name = 'Wanderson'  # string (str)
+    idade = 20  # integer (int)
+    peso = 70.2  # float (float)
+    dirige = False  # boolean (bool)
+    bebe = True  # boolean (bool)
 
     print('Nome:', name)  # 'Wanderson'
     print('Idade:', idade)  # 20
